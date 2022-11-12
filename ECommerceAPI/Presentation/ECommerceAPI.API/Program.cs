@@ -1,9 +1,9 @@
-using ECommereAPI.Persistence;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddPersistenceServices();
+
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
